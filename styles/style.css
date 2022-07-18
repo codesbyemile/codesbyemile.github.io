@@ -1,0 +1,43 @@
+
+html {
+    font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: 'Roboto', sans-serif; /* this should be the rest of the output you got from Google fonts */
+
+    background-color: #FC8C8D;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FABBBC;
+    padding: 0 20px 0px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+
+    margin: 0; /* To eliminate the gap between the heading and the top of the body,
+                we overwrite the browser's default styling with the setting margin: 0;. */
+    padding: 20px 0; /* sets the heading's top and bottom padding to 20 pixels. */
+    color: #FC8C8D;
+    text-shadow: 3px 3px 1px black; /* applies a shadow to the text content of the element. */
+
+}
+
+img {
+    display: block; /* block-level warning behavior */
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+a{
+    font-size: 15px;
+    color: purple;
+}
